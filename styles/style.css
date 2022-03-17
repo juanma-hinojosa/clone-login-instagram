@@ -1,0 +1,147 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;   
+    text-decoration: none;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-wrapper {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 60%;
+    height: 100vh;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.left-side img {
+    height: 50rem;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.box-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: 1.3px solid lightslategray;
+    padding: 20px 0px;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.box-content:nth-child(1) {
+    min-height: 19rem;
+}
+
+.box-content:nth-child(1) > .instagram-logo {
+    height: 3rem;
+}
+
+.box-content:nth-child(1) > .profile-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.box-content:nth-child(1) > .profile-pic img {
+    height: 6.5rem;
+}
+
+.box-content:nth-child(1) > .instagram-login {
+    background-color: #0095f6;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 4px;
+}
+
+.box-content:nth-child(2) a {
+    color: #0095f6;
+}
+
+.create-account a {
+    color: #0095f6;
+}
+
+.download-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+
+.download-content > .download {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.download-content > .download > .app-download {
+    margin-top: 10px;
+    height: 3.3rem;
+    width: 11.2rem;
+    background-size: cover;
+}
+
+.download-content > .download > .app-download:nth-child(1) {
+    background-image: url(/img/apple-button.png);
+}
+.download-content > .download > .app-download:nth-child(2) {
+    background-image: url(/img/googleplay-button.png);
+}
+
+footer {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 6rem;
+    margin-top: 50px;
+}
+
+footer a {
+    color: grey;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+footer .links-bottom {
+    margin-top: 10px;
+}

@@ -1,0 +1,26 @@
+@media (max-width: 1024px) {
+    .login-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    .login-wrapper {
+        width: 90%;
+    }
+    .left-side {
+        display: none;
+    }
+    .right-side {
+        width: 100%;
+    }
+
+    .right-side > .box-content {
+        border: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+}
